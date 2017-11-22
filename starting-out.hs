@@ -25,8 +25,3 @@ doubleSmallNumber x = if x > 100
 -- [toUpper x | x <- "abcd"] = "ABCD"
 --
 --
-removeNonUppercase :: String -> String
-removeNonUppercase st =  [ c | c <- st, c `elem` ['A'..'Z']]
-
-factorial :: Integer -> Integer
-factorial n = product [1..n]
